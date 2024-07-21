@@ -23,3 +23,10 @@ CHANGE SSH BANNER
 1.nano /etc/ssh/sshd_config
 2. add "Banner [location]" to the file, eg : - Banner /etc/banner1
 3. create banner1 in /etc/ and save
+
+CHANGE PORT (default : 22)
+--------------------------
+1.nano /etc/ssh/sshd_config
+2. add "Port [port]" to the file, eg:- Port 2000
+3.reboot
+
