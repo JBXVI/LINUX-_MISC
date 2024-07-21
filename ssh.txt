@@ -1,0 +1,25 @@
+INSTALL SSH
+-----------
+apt install openssh-server
+
+START SSH SERVER ONCE DEVICE BOOTUP
+------------------------------------
+systemctl enable ssh
+
+START SSH SERVER
+-----------------
+systemctl start ssh
+
+SSH SERVER STATUS
+-----------------
+systemctl status ssh
+
+RESTART SSH SERVER
+-------------------
+systemctl restart ssh
+
+CHANGE SSH BANNER
+-----------------
+1.nano /etc/ssh/sshd_config
+2. add "Banner [location]" to the file, eg : - Banner /etc/banner1
+3. create banner1 in /etc/ and save
