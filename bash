@@ -41,3 +41,9 @@ CONCAT OTHER COMMANDS
 eg : - echo "The date is $(date)"
 eg : - echo "Your are currently in $(pwd)"
 
+GLOBALLY SAVE A VARIABLE
+------------------------
+nano ~/.bashrc
+add line : - export name="peter"
+source ~/.bashrc (to reload bash) [or restart system]
+
