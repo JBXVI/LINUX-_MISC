@@ -1,3 +1,5 @@
+
+
 FILE FORMAT
 ------------
 nano myscript.sh
@@ -12,6 +14,9 @@ ALLOW EXECUTE PERMISSION
 -------------------------
 chmod +x myscript.sh
 
+SHEBANG
+-------
+#!/bin/bash
 
 PRINT 
 ------
